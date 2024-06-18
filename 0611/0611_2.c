@@ -39,7 +39,7 @@ int main()
 			close(p2[1]);
 			read(p2[0], c1, 10);
 			read(p2[0], c2, 10);
-			mul = atoi(c1) + atoi(c2);
+			mul = atoi(c1) * atoi(c2);
 	}
 	else
 	{
